@@ -9,7 +9,7 @@ APC — браузерная игра-симулятор взрослой жиз
 - **Frontend:** HTML5, CSS3, JavaScript (ES6 modules)
 - **Хранение:** localStorage
 - **Сервер разработки:** `python3 -m http.server 8080`
-- **Деплой:** Yandex Cloud Object Storage (статический сайт)
+- **Деплой:** GitHub Pages (статический сайт)
 
 ## Структура файлов
 
@@ -37,11 +37,10 @@ APC/
 │       ├── travel.js           # Путешествия (море/горы), активности на отдыхе
 │       ├── friends.js          # Друзья (парк, NPC), партнёр (свидания, свадьба), дети
 │       └── transform.js        # Превращение в животных (6 видов)
-├── docs/
-│   ├── architecture.md     # Этот файл
-│   ├── state-schema.md     # Схема состояния игры
-│   └── development-log.md  # Журнал разработки
-└── deploy.sh               # Скрипт деплоя на Yandex Cloud
+└── docs/
+    ├── architecture.md     # Этот файл
+    ├── state-schema.md     # Схема состояния игры
+    └── development-log.md  # Журнал разработки
 ```
 
 ## Архитектурные решения

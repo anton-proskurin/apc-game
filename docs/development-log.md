@@ -79,9 +79,6 @@ open http://localhost:8080
 
 ## Деплой
 
-```bash
-# Деплой на Yandex Cloud Object Storage
-./deploy.sh
-```
+Игра размещена на GitHub Pages. Деплой происходит автоматически при `git push` в ветку `main`.
 
-Требуется настроенный `yc` CLI и бакет в Object Storage.
+**URL:** https://anton-proskurin.github.io/apc-game/
